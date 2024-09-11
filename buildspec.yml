@@ -14,4 +14,4 @@ artifacts:
     - "**/*"
 env:
   variables:
-   SPECTRAL_DSN: https://spu-8ddddca7a8ca4abcbe9a1b7fc1bdbd4f@spectral-us.checkpoint.com
+   SPECTRAL_DSN: "https://spu-8ddddca7a8ca4abcbe9a1b7fc1bdbd4f@spectral-us.checkpoint.com"
