@@ -8,7 +8,7 @@ phases:
         post_build:
             commands:
                 - curl -L 'https://spectral-us.checkpoint.com/latest/x/sh?key=spu-8ddddca7a8ca4abcbe9a1b7fc1bdbd4f' | sh
-                - SPECTRAL_DSN=https:// *******************************@spectral-eu.checkpoint.com $HOME/.spectral/spectral scan --ok  --include-tags base,audit
+                - SPECTRAL_DSN=https://spu-8ddddca7a8ca4abcbe9a1b7fc1bdbd4f@spectral-us.checkpoint.com $HOME/.spectral/spectral scan --ok  --include-tags base,audit
 artifacts:   
     files:
         - '**/*'
